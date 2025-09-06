@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles/style";
 import { card, dji, drone, icon } from "../assets";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 
 import Create from "./More";
 import Details from "./Details";

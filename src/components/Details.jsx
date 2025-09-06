@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { details } from "../assets";
 
 const Details = ({ styles }) => (
@@ -8,4 +9,7 @@ const Details = ({ styles }) => (
   />
 );
 
+Details.prototype = {
+  styles: PropTypes.string,
+};
 export default Details;

@@ -1,16 +1,8 @@
 import { remote } from "../assets";
 import styles, { layout } from "../styles/style";
 import { motion } from "framer-motion";
-import Button2 from "./Button2";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-  zoomIn,
-  planetVariants,
-} from "../utils/motion.js";
+import ButtonSee from "./ButtonSee";
+import { fadeIn } from "../utils/motion.js";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
@@ -41,7 +33,7 @@ const Billing = () => (
         take it with them on their travels and capture breathtaking footage from
         new perspectives.
       </p>
-      <Button2 styles={`mt-10`} />
+      <ButtonSee styles={`mt-10`} />
     </motion.div>
   </section>
 );

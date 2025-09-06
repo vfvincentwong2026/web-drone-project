@@ -2,13 +2,7 @@ import styles from "../styles/style";
 import { layout } from "../styles/style";
 import { dr1, dr2, dr3, dr4 } from "../assets";
 import { motion } from "framer-motion";
-import {
-  textVariant,
-  slideIn,
-  fadeIn,
-  textVariant2,
-  staggerContainer,
-} from "../utils/motion.js";
+import { textVariant, fadeIn, staggerContainer } from "../utils/motion.js";
 
 const HotDrop = () => (
   <motion.section

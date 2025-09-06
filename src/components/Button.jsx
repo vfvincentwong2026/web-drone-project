@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const Button = ({ styles }) => (
   <button
@@ -8,5 +8,7 @@ const Button = ({ styles }) => (
     See Product
   </button>
 );
-
+Button.prototype = {
+  styles: PropTypes.string,
+};
 export default Button;
