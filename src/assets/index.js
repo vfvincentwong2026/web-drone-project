@@ -12,6 +12,7 @@ import more from "./svg/more.svg";
 import dji from "./svg/dji.svg";
 import search from "./svg/search.svg";
 import favicon from "./png/favicon.png";
+import heropbg from "./png/heropbg.png";
 import drone from "./svg/drone.svg";
 import card from "./svg/card.svg";
 import icon from "./svg/icon.svg";
@@ -51,4 +52,5 @@ export {
   favicon,
   dji,
   remote,
+  heropbg,
 };
